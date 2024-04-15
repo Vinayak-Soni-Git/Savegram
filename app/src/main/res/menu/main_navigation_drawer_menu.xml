@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/menu_collection"
+            android:title="Collection"
+            android:icon="@drawable/collection_tag_svgrepo_com">
+        </item>
+
+        <item
+            android:id="@+id/menu_trending"
+            android:title="Trending"
+            android:icon="@drawable/trending_up_svgrepo_com">
+        </item>
+        <item
+            android:id="@+id/menu_hot_games"
+            android:title="Hot Games"
+            android:icon="@drawable/games_svgrepo_com">
+        </item>
+    </group>
+    
+    <group
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/menu_how_to_download"
+            android:title="How to Download"
+            android:icon="@drawable/idea_bulb_svgrepo_com">
+        </item>
+
+        <item
+            android:id="@+id/menu_qanda"
+            android:title="Q&amp;A"
+            android:icon="@drawable/question_circle_svgrepo_com">
+        </item>
+        <item
+            android:id="@+id/menu_feedback"
+            android:title="Feedback"
+            android:icon="@drawable/feedback_backup_svgrepo_com">
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/group3">
+        <item
+            android:id="@+id/menu_recommend_to_download"
+            android:title="Recommend to Friends"
+            android:icon="@drawable/add_friend_basic_outline_svgrepo_com">
+        </item>
+        <item
+            android:id="@+id/menu_settings"
+            android:title="Settings"
+            android:icon="@drawable/settings_svgrepo_com">
+        </item>
+    </group>
+
+</menu>
